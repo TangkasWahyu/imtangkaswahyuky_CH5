@@ -42,11 +42,11 @@ class Car extends Vehicle {
     int tangki = 1;
 
     public void belokKanan(String blkkanan) {
-        System.out.println("Kendaraan berbelok ke " + blkkanan);
+        System.out.println("Mobil berbelok ke " + blkkanan);
     }
 
     public void belokKiri(String blkkiri) {
-        System.out.println("Kendaraan berbelok ke " + blkkiri);
+        System.out.println("Mobil berbelok ke " + blkkiri);
     }
 }
 
@@ -55,11 +55,11 @@ class HondaJazz extends Car {
     int tangki = 2;
 
     public void belokKanan(String blkkanan) {
-        System.out.println("Kendaraan berbelok ke " + blkkanan);
+        System.out.println("Honda berbelok ke " + blkkanan);
     }
 
     public void belokKiri(String blkkiri) {
-        System.out.println("Kendaraan berbelok ke " + blkkiri);
+        System.out.println("Honda berbelok ke " + blkkiri);
     }
 }
 
@@ -68,11 +68,11 @@ class ToyotaFortuner extends Car {
     int tangki = 3;
 
     public void belokKanan(String blkkanan) {
-        System.out.println("Kendaraan berbelok ke " + blkkanan);
+        System.out.println("Toyota berbelok ke " + blkkanan);
     }
 
     public void belokKiri(String blkkiri) {
-        System.out.println("Kendaraan berbelok ke " + blkkiri);
+        System.out.println("Toyota berbelok ke " + blkkiri);
     }
 }
 
@@ -82,10 +82,10 @@ class SuzukiKatana extends Car {
     int tangki = 4;
 
     public void belokKanan(String blkkanan) {
-        System.out.println("Kendaraan berbelok ke " + blkkanan);
+        System.out.println("Suzuki berbelok ke " + blkkanan);
     }
 
     public void belokKiri(String blkkiri) {
-        System.out.println("Kendaraan berbelok ke " + blkkiri);
+        System.out.println("Suzuki berbelok ke " + blkkiri);
     }
 }
